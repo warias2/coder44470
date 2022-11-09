@@ -2,7 +2,6 @@ from django.http import HttpResponse
 from appcoder.models import Curso
 from django.shortcuts import render
 
-
 def inicio(request):
     return render(request, "appcoder/index.html")
 
